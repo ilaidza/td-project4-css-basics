@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: rgb(236, 216, 216);
+}
+.navbar {
+    background-color: rgb(78, 8, 8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+label {
+    font-size: 25px;
+    font-weight: 600;
+}
+.navbar ul {
+    list-style-type: none;
+}
+.navbar ul li {
+    text-align: center;
+    display: inline;
+    margin: 10px;
+}
+.navbar ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(236, 216, 216);
+    font-size: 15px;
+}
+
+
+.navbar ul li a:hover {
+    color: rgb(117, 107, 49);
+}
+.profile-container {
+    padding: 30px;
+    text-align: center;
+
+}
+#diff {
+    color: rgb(78, 8, 8);
+    font-size: 2em;
+    font-weight: 600;
+    width: 100%;
+}
+p#diff1{
+    color: rgb(83, 58, 58);
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+}
+.profile-container img {
+    margin-bottom: 15px;
+    width: 19%;
+    height: 40vh;
+    border-radius: 50%;
+}
+
+.section {
+    background-color: rgba(97, 11, 11, 0.856);
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    padding: 80px;
+    color: rgb(236, 216, 216);
+
+}
+
+.section .part {
+    width: 40%;
+}
+.second {
+    text-transform: capitalize;
+    margin-right: -50px;
+}
+.second h3, #prom {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 1.2em;
+} 
+.second p#email {
+    text-transform: none;
+    font-weight: 600;
+}
+.part h2 {
+    margin-bottom: 35px;
+    text-transform: capitalize;
+    font-size: 1.8em;
+}
+
+.services-container {
+    margin-top: 40px;
+    padding: 30px;
+}
+.text-con {
+    margin-bottom: 20px;
+}
+.service-types {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 100px;
+
+}
+
+.each-service-container {
+    background-color: rgba(51, 12, 12, 0.952);
+    padding: 20px;
+    border-radius: 15px;
+    color: rgb(236, 216, 216);
+    width: 25%;
+    height: 180px;
+    text-align: center;
+
+}
+
+.text-con p {
+    font-size: 25px;
+    color: rgba(43, 11, 11, 0.932);
+    font-weight: 600;
+    margin-left: 100px;
+} 
+
+.each-service-container h4 {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: rgb(78, 8, 8);
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
+.footer p {
+    font-weight: 600;
+}
+.footer #mail {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.footer ul {
+    list-style-type: none;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.footer ul li {
+    text-align: center;
+    display: inline;
+    margin: 10px;
+}
+.footer ul li a .fa-brands {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(236, 216, 216);
+    font-size: 20px;
+
+}
+
+.footer ul li a .fa-brands:hover {
+    color: rgb(117, 107, 49);
+}
+.footer .fa-regular {
+    font-size: 13px;
+}
